@@ -1,0 +1,33 @@
+{
+    "hostName": "localhost",
+    "hostUser": "root",
+    "hostPassword": "",
+    "hostDB": "maxeo_db",
+    "typeDB": "mysql",
+    "blacklist": [],
+    "kaptcha": {
+        "path_bg": [".data\/captcha_data\/0.png",
+            ".data\/captcha_data\/1.png",
+            ".data\/captcha_data\/2.png",
+            ".data\/captcha_data\/3.png",
+            ".data\/captcha_data\/4.png"],
+        "path_font": [".data\/captcha_data\/1.ttf",
+            ".data\/captcha_data\/2.ttf",
+            ".data\/captcha_data\/3.ttf"]
+    },
+    "languages": ["it", "en", "fr", "de", "es"],
+    "location_message_path": {
+        "it": "avviso",
+        "en": "notice"
+    },
+    "page_settings": "pages.json",
+    "include_path": ".include/",
+    "base_path_page_elements": ".\/.include\/view\/skin\/",
+    "maxConnectionsByIP": 30,
+    "maxItemsInCart": 30,
+    "maxRegBeforeCaptcha": 3,
+    "log_error_location": ".\/.log\/reporting.htm",
+    "log_error_location_data": ".\/.data\/misc\/topHerrormessage.htm",
+    "time_storage": 604800,
+    "saved_files_location": ".\/.data\/fileUploaded"
+}

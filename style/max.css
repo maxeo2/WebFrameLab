@@ -1,0 +1,147 @@
+/***          Elementi dell'Header'         ***/
+.fadelogo{
+    height: 323px;
+    margin-bottom:0;
+}
+.rollinglogo{
+    height: 0;
+    overflow: visible;
+}
+.footer_menu{
+    display: none;
+}
+.footer_menu ul{
+    list-style: outside none none;
+}
+
+.footer_menu ul li a{
+    border: 0;
+    font-size: 18px;
+    font-weight: normal;
+}
+.rollinglogo img{
+    transition: all 4s ease 0s;
+    height: 213px;
+    opacity: 0;
+    display: block;
+    position: relative;
+    bottom: 307px;
+    left:-1px;
+}
+#upArrow{
+    display: none;
+}
+#upArrow img{
+    width:60px;
+    bottom:20px;
+    right:20px;
+    position:fixed;
+    cursor:pointer;
+}
+.titleProj{
+    font-weight: bold;
+    font-size: 24px;
+    color: #333399;
+}
+.fast_contact textarea{
+    width: 100%;
+    min-height: 115px;
+    resize:none;
+}
+.justify{
+    text-align: justify;
+}
+
+.statistics li a, .no_borderB {
+    border-bottom: none;
+}
+.no_margin_bot{
+    margin-bottom: 0;
+}
+
+.content p{
+    text-align: justify;
+}
+
+.content p .image.maxPhoto{
+    float: right;
+    margin-left:20px !important;
+}
+ul.statistics li strong{
+    font-size: 40px;
+}
+/***          Stile Elementi Progresso         ***/
+.progress-circle-back {
+    fill: none; 
+    stroke: #E8E8E8;
+    stroke-width:10px;
+}
+.progress-circle {
+    transform: rotate(-90deg);
+    position: relative;
+    left: 15px;
+}
+.progress-circle-prog {
+    fill: none; 
+    stroke-width: 10px;  
+    stroke-dasharray: 0 1000;    
+    stroke-dashoffset: 0px;
+    transition: stroke-dasharray 1.5s linear 0s;
+}
+
+.progress-text {
+    bottom: 128px;
+    font-size: 2em;
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+@media screen and (max-width: 1680px) {
+    .progress-text {
+        bottom: 120px;
+    }
+    ul.statistics li strong{
+        font-size: 32px;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .progress-text {
+        bottom: 113px;
+    }
+    ul.statistics li strong{
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 850px) {
+    .progress-text {
+        bottom: 113px;
+    }
+    ul.statistics li strong{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 736px) {
+    .progress-text {
+        bottom: 110px;
+    }
+    .statistics li.style6 {
+        background-color: #8CF0D4;
+    }
+    ul.statistics li strong{
+        font-size: 45px;
+    }
+    .footer_menu{
+        display: block;
+    }
+}
+/***          Footer         ***/
+footer textarea{
+    width: 100%;
+    min-height:115px;
+    resize:none;
+}
+.mailBoxm img{
+    position:relative;
+    top:6px;
+    height: 27.5px;
+}
